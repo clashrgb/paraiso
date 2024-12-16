@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    margin: 0;
+
+    color: rgb(212, 190, 190);
+}
+
+h1{
+    background-color: rgb(20, 26, 22);
+    letter-spacing: 2vmin;
+    text-decoration: line-through;
+    padding: 0 4vmin;
+}
+
+p{
+    border-radius: 2vmin;
+    padding: 2vmin;
+    border: 1px solid rgb(35, 35, 35);
+    word-spacing: 1vmin;
+
+    font-variant: normal;
+    color: rgb(255, 255, 255);
+}
